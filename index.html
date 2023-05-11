@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Feedback Page</title>
+  </head>
+  <body>
+    <div class="logo">
+      <img src="imagens/LogoAzaz.png" />
+    </div>
+    <div class="container">
+      <div class="header">
+        <h2>Envie Seu Feedback</h2>
+      </div>
+      <form action="">
+        <div class="form">
+          <div class="user">
+            <input type="email" placeholder="Insira Seu Email" />
+          </div>
+          <div class="username">
+            <input type="text" placeholder="Nome Completo" />
+          </div>
+          <br><br>
+          <textarea placeholder="Diga Sua Opinião"></textarea>
+         
+             <!--Parte dos emoji-->
+            <div class="rating">
+            <!--emoji Otimo-->
+            <input type="radio" name="emoji" id="emoji1" checked />
+            <label for="emoji1">
+              <img src="imagens/MuitoBom.png" title="MuitoBom" />
+              <h4>Ótimo</h4>
+            </label>
+            <!--emoji Bom-->
+            <input type="radio" name="emoji" id="emoji2" />
+            <label for="emoji2">
+              <img src="imagens/Bom.png" title="Bom" />
+              <h4>Bom</h4>
+            </label>
+            <!--emoji Decente-->
+            <input type="radio" name="emoji" id="emoji3" />
+            <label for="emoji3">
+              <img src="imagens/Medio.png" title="Medio" />
+              <h4>Decente</h4>
+            </label>
+            <!--emoji Ruim-->
+            <input type="radio" name="emoji" id="emoji4" />
+            <label for="emoji4">
+              <img src="imagens/Ruim.png" title="Ruim" />
+              <h4>Ruim</h4> 
+            </label>
+            <!--emoji Pessimo--> 
+            <input type="radio" name="emoji" id="emoji5" />
+              <label for="emoji5">
+              <img src="imagens/MuitoRuim.png" title="MuitoRuim" />
+              <h4>Péssimo</h4>
+            </label>
+            
+          </div>
+          <div class="sub">
+            <input type="submit" value="Enviar" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
