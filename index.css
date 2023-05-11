@@ -18,7 +18,7 @@ body {
 .container {
   text-align: center;
   justify-content: center;
-  height: 600px; /*tamanho da bordinha da pagina */
+  height: 620px; /*tamanho da bordinha da pagina */
   min-height: 600px;
   width: 600px;
   align-items: center;
@@ -30,7 +30,8 @@ body {
   overflow: hidden;
 }
 .logo {
-  margin-bottom: 600px; /*altura da logo de cima em relaçao a caixinha*/
+  margin-bottom: 800px; /*altura da logo de cima em relaçao a caixinha*/
+  margin-top: 100px;
   position: absolute;
   padding-top: 50px;
 }
